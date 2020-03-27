@@ -14,11 +14,11 @@
 
 $(document).ready(function() {
   $("#submitbutton").click(function() {
-    var animal = $("animal-input").val();
-    var meal = $("meal-input").val();
-    var experience = $("exp-input").val();
-    var prefer = $("pref-input").val();
-    var holiday = $("holiday-input").val();
+    var animal = $("#animal-input").val();
+    var meal = $("#meal-input").val();
+    var experience = $("#exp-input").val();
+    var prefer = $("#pref-input").val();
+    var holiday = $("#holiday-input").val();
     console.log(animal, meal, experience, prefer, holiday)
     var result;
 
