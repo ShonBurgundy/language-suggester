@@ -25,12 +25,19 @@ $(document).ready(function() {
       result = "you should look into Python!"
     } else if (animal === "Cats" && meal === "Chicken Tendies" && experience === "None" &&  prefer === "Dell" && holiday === "National Soft Ice Cream Day") {
       result = "you should look into Python!"
-
-    } else if (animal === "Cats" && meal === "Chicken Tendies" && experience === "None" &&  prefer === "Dell" && holiday === "National Soft Ice Cream Day") {
+    } else if (animal === "Horses" && meal === "Steak & Eggs" && experience === "A little" &&  prefer === "Lenovo" && holiday === "Christmas") {
       result = "you should look into Python!"
 
+    } else if (animal === "Dogs" && meal === "Chicken Tendies" && experience === "A little" &&  prefer === "Lenovo" && holiday === "Christmas") {
+      result = "you should look into Python!"
+    
+    
+    
+    
+    
     } else if (animal === "Horses" && meal === "Chicken Tendies" && experience === "A plethora" &&  prefer === "Dell" && holiday === "Christmas") {
       result = "you should look into C#"
+    
     } else if ( animal === "Choose..." && meal === "Choose..." && experience === "Choose..." && prefer === "Choose..." && holiday === "Choose...") {
       result = "you have to make some choices, you can't go wrong!"
     }
