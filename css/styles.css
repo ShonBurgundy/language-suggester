@@ -8,7 +8,7 @@
 }
 
 body {
-  background-color: lightgray;
+  background-color: #9CB0A4;
 }
 
 #submitbutton {
@@ -30,4 +30,11 @@ body {
   margin: 15px;
   text-decoration: underline;
   font-size: x-large;
+}
+
+.box {
+  padding: 15px;
+  margin: 15px;
+  border-style: double;
+  background-color: #3A4B40;
 }
