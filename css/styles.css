@@ -9,6 +9,7 @@
 
 body {
   background-image: url(https://bit.ly/2Jlr1ek);
+  font-family: sans-serif;
   /*background-color: #9CB0A4;*/
 }
 
@@ -27,19 +28,25 @@ body {
 #output {
   font-weight: 800;
   font-size: large;
-  /*padding: 10px;
-  margin: 15px;*/
+  padding: 10px;
+  margin: 15px;
   text-decoration: underline;
   font-size: x-large;
   text-align: center;
   text-shadow: 5px 5px 10px white;
-  background-color: white;
+  background-color: black;
   display: none;
+  color: white;
+  
 }
 
 .box {
-  padding: 15px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
   margin: 15px;
   border-style: double;
+  border-color: lime;
   background-color: black;
 }
