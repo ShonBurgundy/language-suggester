@@ -17,14 +17,18 @@ $(document).ready(function() {
       result = "you should look into Ruby!"
     } else if (animal === "Horses" && meal === "Beet Salad" && experience === "None" &&  prefer === "Lenovo" && holiday === "Christmas") {
       result = "you should look into Ruby!"
-
+    } else if (animal === "Horses" && meal === "Chicken Tendies" && experience === "None" &&  prefer === "Lenovo" && holiday === "National Soft Ice Cream Day") {
+      result = "you should look into Ruby!"
     } else if (animal === "Dogs" && meal === "Beet Salad" && experience === "A plethora" &&  prefer === "Lenovo" && holiday === "Batman Day") {
       result = "you should look into Ruby!"
-
-    //} else if (animal === "Cats" && meal === "Beet Salad" && experience === "A little" &&  prefer === "Lenovo" && holiday === "National Soft Ice Cream Day") {
+    } else if (animal === "Cats" && meal === "Beet Salad" && experience === "A little" &&  prefer === "Lenovo" && holiday === "National Soft Ice Cream Day") {
       result = "you should look into Python!"
     } else if (animal === "Cats" && meal === "Chicken Tendies" && experience === "None" &&  prefer === "Dell" && holiday === "National Soft Ice Cream Day") {
       result = "you should look into Python!"
+
+    } else if (animal === "Cats" && meal === "Chicken Tendies" && experience === "None" &&  prefer === "Dell" && holiday === "National Soft Ice Cream Day") {
+      result = "you should look into Python!"
+
     } else if (animal === "Horses" && meal === "Chicken Tendies" && experience === "A plethora" &&  prefer === "Dell" && holiday === "Christmas") {
       result = "you should look into C#"
     } else if ( animal === "Choose..." && meal === "Choose..." && experience === "Choose..." && prefer === "Choose..." && holiday === "Choose...") {
