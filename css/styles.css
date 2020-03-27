@@ -10,3 +10,14 @@
 body {
   background-color: lightgray;
 }
+
+#submitbutton {
+  margin: 10px;
+}
+
+.bg-info {
+  margin: 15px;
+  padding: 4px;
+  font-size: large;
+  border-style: round;
+}
