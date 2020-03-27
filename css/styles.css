@@ -1,0 +1,12 @@
+.jumbotron {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+  margin: 15px;
+  border-style: double;
+  background-image: linear-gradient(to bottom, #5f72d5, #00a1fd, #00c6e1, #00e08d, #a8eb12);
+}
+
+body {
+  background-color: lightgray;
+}
