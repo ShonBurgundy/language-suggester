@@ -1,16 +1,3 @@
-//Back-End (Business Logic)
-
-
-
-
-
-
-
-
-
-
-
-//Front-End (User interface logic)
 
 $(document).ready(function() {
   $("#submitbutton").click(function() {
@@ -20,6 +7,7 @@ $(document).ready(function() {
     var prefer = $("#pref-input").val();
     var holiday = $("#holiday-input").val();
     var name = $("#user-name").val();
+    
     //console.log(animal, meal, experience, prefer, holiday)
     var result;
     if (! name) {
@@ -30,17 +18,19 @@ $(document).ready(function() {
     } else if (animal === "Horses" && meal === "Beet Salad" && experience === "None" &&  prefer === "Lenovo" && holiday === "Christmas") {
       result = "you should look into Ruby!"
 
-      
+    } else if (animal === "Dogs" && meal === "Beet Salad" && experience === "A plethora" &&  prefer === "Lenovo" && holiday === "Batman Day") {
+      result = "you should look into Ruby!"
 
-
-    } else if (animal === "Cats" && meal === "Beet Salad" && experience === "A little" &&  prefer === "Lenovo" && holiday === "National Soft Ice Cream Day") {
+    //} else if (animal === "Cats" && meal === "Beet Salad" && experience === "A little" &&  prefer === "Lenovo" && holiday === "National Soft Ice Cream Day") {
       result = "you should look into Python!"
     } else if (animal === "Cats" && meal === "Chicken Tendies" && experience === "None" &&  prefer === "Dell" && holiday === "National Soft Ice Cream Day") {
       result = "you should look into Python!"
-    }
-    else if (animal === "Horses" && meal === "Chicken Tendies" && experience === "A plethora" &&  prefer === "Dell" && holiday === "Christmas") {
+    } else if (animal === "Horses" && meal === "Chicken Tendies" && experience === "A plethora" &&  prefer === "Dell" && holiday === "Christmas") {
       result = "you should look into C#"
+    } else if ( animal === "Choose..." && meal === "Choose..." && experience === "Choose..." && prefer === "Choose..." && holiday === "Choose...") {
+      result = "you have to make some choices, you can't go wrong!"
     }
+
 
     $("#output").text(name + ", " + result);
     $("#output").show();
