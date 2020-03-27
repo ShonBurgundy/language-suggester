@@ -35,19 +35,16 @@ $(document).ready(function() {
       result = "you should look into C#"
     } else if (animal === "Cats" && meal === "Beet Salad" && experience === "None" &&  prefer === "Dell" && holiday === "National Soft Ice Cream Day") {
       result = "you should look into C#"
-
     } else if (animal === "Dogs" && meal === "Steak & Eggs" && experience === "A little" &&  prefer === "Dell" && holiday === "Christmas") {
       result = "you should look into C#"
-    
-    
-    
-    
-    
     } else if (animal === "Horses" && meal === "Chicken Tendies" && experience === "A plethora" &&  prefer === "Dell" && holiday === "Christmas") {
       result = "you should look into C#"
     
     } else if ( animal === "Choose..." && meal === "Choose..." && experience === "Choose..." && prefer === "Choose..." && holiday === "Choose...") {
       result = "you have to make some choices, you can't go wrong!"
+    }
+    else { 
+      result="sorry your choices didn't provide a suggestion. Wah Wah Wahhhh."
     }
 
 
