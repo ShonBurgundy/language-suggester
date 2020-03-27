@@ -27,9 +27,18 @@ $(document).ready(function() {
     }
     if (animal === "Dogs" && meal === "Steak & Eggs" && experience === "None" &&  prefer === "Mac" && holiday === "Batman Day") {
       result = "you should look into Ruby!"
+    } else if (animal === "Horses" && meal === "Beet Salad" && experience === "None" &&  prefer === "Lenovo" && holiday === "Christmas") {
+      result = "you should look into Ruby!"
+
+      
+
+
     } else if (animal === "Cats" && meal === "Beet Salad" && experience === "A little" &&  prefer === "Lenovo" && holiday === "National Soft Ice Cream Day") {
       result = "you should look into Python!"
-    } else if (animal === "Horses" && meal === "Chicken Tendies" && experience === "A plethora" &&  prefer === "Dell" && holiday === "Christmas") {
+    } else if (animal === "Cats" && meal === "Chicken Tendies" && experience === "None" &&  prefer === "Dell" && holiday === "National Soft Ice Cream Day") {
+      result = "you should look into Python!"
+    }
+    else if (animal === "Horses" && meal === "Chicken Tendies" && experience === "A plethora" &&  prefer === "Dell" && holiday === "Christmas") {
       result = "you should look into C#"
     }
 
