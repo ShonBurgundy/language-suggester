@@ -8,7 +8,8 @@
 }
 
 body {
-  background-color: #9CB0A4;
+  background-image: url(https://bit.ly/2Jlr1ek);
+  /*background-color: #9CB0A4;*/
 }
 
 #submitbutton {
@@ -26,15 +27,19 @@ body {
 #output {
   font-weight: 800;
   font-size: large;
-  padding: 10px;
-  margin: 15px;
+  /*padding: 10px;
+  margin: 15px;*/
   text-decoration: underline;
   font-size: x-large;
+  text-align: center;
+  text-shadow: 5px 5px 10px white;
+  background-color: white;
+  display: none;
 }
 
 .box {
   padding: 15px;
   margin: 15px;
   border-style: double;
-  background-color: #3A4B40;
+  background-color: black;
 }
